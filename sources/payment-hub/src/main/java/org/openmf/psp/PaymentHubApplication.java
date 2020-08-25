@@ -22,7 +22,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 import org.springframework.web.client.RestTemplate;
 
-@SpringBootApplication(scanBasePackages = "hu.dpc.rt")
+@SpringBootApplication(scanBasePackages = "org.openmf")
 @EnableConfigurationProperties({ChannelSettings.class, HubSettings.class, FspSettings.class, SwitchSettings.class, MockSettings.class, IbanSettings.class})
 public class PaymentHubApplication {
 
